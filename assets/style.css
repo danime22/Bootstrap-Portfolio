@@ -70,7 +70,7 @@ h1 {
     background-color:#4aaaa5;
     font-weight: bold;
     margin-top:0px;
-    margin-left:auto;
+    /* margin-left:auto; */
     display: inline-block;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -175,7 +175,7 @@ textarea {
 }
 
 
-.content {
+.content1, .content2, .content3, .content4, .content5, .content6{
 
     float: left;
     width: 300px;
@@ -184,13 +184,10 @@ textarea {
     border: 5px solid #FFEEB2;
     transition: 1s;
     margin: 15px 30px;
-    top: 50px;
+    top: 5px;
     transition: all 1s;
+    position: relative;
    
-}
-.content:hover {
-    transform: scale(2);
- 
 }
 
 
@@ -202,15 +199,16 @@ textarea {
 
 
 
-#td1, #td2, #td3, #td4, #td5, #td6 {
+/* #td1, #td2, #td3, #td4, #td5, #td6 #rest{
     position: relative;
-}
+    overflow: auto
+} */
 
 
-.text {
-    position: absolute;
+/* .text {
+    position: relative;
     top:70%;
-    width: 73%;
+    width: 31.3%;
     height: 50px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -220,8 +218,28 @@ textarea {
     margin-left: 35px;
     padding: 10px;
     font-size: 15px;
+    overflow: auto;
+    float:left;
 
-}
+
+} */
+
+/* .text2 {
+    position: absolute;
+    top:70%;
+    width: 31.3%;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: fantasy;
+    text-align: center;
+    margin-left: 35px;
+    padding: 10px;
+    font-size: 15px;
+    
+    float:right;
+} */
 
 
 
@@ -237,3 +255,77 @@ footer{
     position: relative;
 
 }
+
+/* #rest {
+    overflow: auto;
+} */
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.centered {
+    /* position: relative; */
+   
+    top:70%;
+    width: 32.5%;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: fantasy;
+    text-align: center;
+    /* margin-left: 35px; */
+    padding: 10px;
+    font-size: 15px;
+    /* overflow: auto; */
+    float:left;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 20px;
+
+}
+
+/* .col::after {
+    overflow: auto;
+    content: "";
+    clear: both;
+    display: table; */
+
+/* } */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.centered1 {
+    top:70%;
+    width: 32.5%;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: fantasy;
+    text-align: center;
+    /* margin-left: 35px; */
+    padding: 10px;
+    font-size: 15px;
+    /* overflow: auto; */
+    float:left;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 500px;
+
+
+}
+
+.btn {
+    background: #4aaaa5;
+    width: 150px;
+}
+
