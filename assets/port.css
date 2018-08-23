@@ -1,0 +1,136 @@
+body {
+ 
+    background-image: url("../assets/images/purty_wood_@2X.png")
+    
+
+}
+
+header {
+    border: 2px solid #cccccc;
+    background-color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 110px;
+    /* text-align: center; */
+    /* margin-right: 0 auto; */
+    border-color: #cccccc;
+    cursor: pointer;
+    clear: both;
+   
+}   
+
+
+ul {
+    border: 2px;
+    padding:27px;
+    width: 380px;
+  
+
+    margin-left: auto;
+    background-color: white;
+    margin-bottom: 35px;
+    text-align: right;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Georgia', Times, serif;
+ 
+   
+    
+}
+li {
+    display:inline-block;
+    list-style: none;
+    color: #777777;
+    transition: all;
+    
+}
+
+
+
+h1 {
+   
+    border: 2px;
+    padding: 30px;
+    background-color:#4aaaa5;
+    font-weight: bold;
+    margin-top:0px;
+    /* margin-left:auto; */
+    display: inline-block;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    float: left;
+    cursor: cell;
+    height: 100px;
+    width: 380px;
+text-align: center;
+   
+    
+}
+
+
+section{
+    color: #777777;
+    border: 5px solid #dddddd;
+    margin: auto;
+    margin-top: 50px;
+  
+    
+    padding: 10px;
+    width: 960px; 
+    height: 900px;; 
+    background-color: #ffffff;
+   
+}
+
+
+.content1, .content2, .content3, .content4{
+width: 300px;
+height:200px;
+position: absolute;
+bottom: 8px;
+left:16px;
+position: relative;
+}
+
+
+p {
+    background-color: #4aaaa5;
+    position: relative;
+   width: 300px;
+   text-align: center;
+   color:white;
+    bottom:58.9px;
+    margin-left: 17px;
+    height: 50px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+}
+
+footer{
+    background-color:#666666;
+    padding: 10px;
+    margin-top: 400px;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    color: white;
+    clear:both;
+    position: relative;
+
+}
+
+
+
+.dog {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 2em;
+}    
+
+@media screen and (max-width:959px) {
+  section {
+      width:100%;
+      height: 100%;
+  }
+}
