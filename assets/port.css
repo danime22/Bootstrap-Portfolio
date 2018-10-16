@@ -20,7 +20,7 @@ header {
 
 
 ul {
-    border: 2px;
+    /* border: 2px;
     padding:27px;
     width: 380px;
   
@@ -33,7 +33,19 @@ ul {
     font-weight: bold;
     font-family: 'Georgia', Times, serif;
  
-   
+    */
+     border: 2px;
+    padding:27px;
+    width: 380px;
+    margin-left: auto;
+    background-color: white;
+    margin-bottom: 35px;
+     text-align: right;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Georgia', Times, serif;
+    float: right;
+    margin-right: 8%;
     
 }
 li {
@@ -48,12 +60,12 @@ li {
 
 h1 {
    
-    border: 2px;
+    /* border: 2px;
     padding: 30px;
     background-color:#4aaaa5;
     font-weight: bold;
     margin-top:0px;
-    /* margin-left:auto; */
+ 
     display: inline-block;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -63,6 +75,23 @@ h1 {
     height: 100px;
     width: 380px;
 text-align: center;
+    */
+
+        border: 2px;
+    padding: 30px;
+    background-color:#4aaaa5;
+    font-weight: bold;
+    margin: 4px auto;
+    margin-left: 73px;
+    display: inline-block;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 39px;
+    float: left;
+    cursor: cell;
+    height: 100px;
+    width: 380px;
+   text-align: center;
    
     
 }
