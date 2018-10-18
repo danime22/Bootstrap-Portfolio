@@ -38,8 +38,7 @@ section{
     border: 5px solid #dddddd;
     margin: auto;
     margin-top: 50px;
-  
-    
+
     padding: 10px;
     width: 960px; 
     height: 900px;; 
@@ -48,18 +47,22 @@ section{
 }
 
   ul {
-       text-align: center;
+  
+        border: 20px;
+            padding:30px;
+            width: 400px;
+            background-color: white;
+            float: right;
+            position: relative;
+            bottom: 115px;
+            float:right;
+             text-align: center;
         font-size: x-large;
         font-weight: bold;
         font-family: 'Georgia', Times, serif;
         margin: 0 auto;
         }
 
-
-#nav{
-    padding:35px;
-     height: 107px;
-}
 li {
     display:inline-block;
     list-style: none;
@@ -68,21 +71,21 @@ li {
 }
 
 h1 {
-
-    padding: 15px;
-    background-color:#4aaaa5;
-    font-weight: bold;
-    margin: 4px auto; 
-    display: inline-block;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 37px;
-    float: left;
-    cursor: cell;
-    height: 100px;
-    width: 326px;
-   text-align: center;
-   margin-top: -20px;
+            border: 2px;
+            padding: 50px;
+            background-color:#4aaaa5;
+            font-weight: bold;
+            margin-top:0px;
+            margin: auto;
+            display: inline-block;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 35px;
+            cursor: cell;
+            width: 400px;
+            height: 125px;
+            text-align: center;
+            position: relative;
 
 
 } 
@@ -142,6 +145,10 @@ img {
 
 a {
    text-decoration: none ;
+}
+
+form{
+     width: 960px; 
 }
 
 .abc {
