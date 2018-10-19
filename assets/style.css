@@ -2,21 +2,23 @@
 
 body {
  
-    background-image: url("../assets/images/purty_wood_@2X.png")
+    background-image: url("../assets/images/photo-1536411243582-2481fd5bc69b.jpeg");
+    background-position: center;
     
 
 }
 
    header {
-            border: 2px solid #cccccc;
+            /* border: 2px solid #cccccc; */
      
        
             height: 130px;
           
             margin-right: 0 auto;
-            border-color: #cccccc;
+            /* border-color: #cccccc; */
             cursor: pointer;
-            background-color: white;
+            /* background-color: #090625; */
+            background-image: linear-gradient(to bottom right, #463F78, #090625);
             position: relative;
             
            
@@ -29,19 +31,22 @@ body {
 
 .dog {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: #0E66D8;
     font-weight: bold;
-    font-size: 2em;
-}    
+    font-size: 39px;
+}  /*About Me*/
+
 section{
-    color: #777777;
-    border: 5px solid #dddddd;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
     margin: auto;
     margin-top: 50px;
     padding: 10px;
     width: 960px; 
-    height: 900px;; 
-    background-color: #ffffff;
+    /* height: 900px;;  */
+    background: rgba(0, 0, 0, 0.7);
+
     
 }
 
@@ -49,7 +54,7 @@ section{
   
             padding:30px;
             width: 400px;
-            background-color: white;
+            /* background-color: white; */
             float: right;
             position: relative;
             bottom: 115px;
@@ -72,15 +77,15 @@ li {
 
 h1 {
             border: 2px;
-            padding: 50px;
-            background-color:#4aaaa5;
+            padding: 41px;
+            /* background-color:#4aaaa5; */
             font-weight: bold;
             margin-top:0px;
             margin: auto;
             display: inline-block;
-            color: white;
+            color: #0E66D8;
             font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 35px;
+            font-size: 40px;
             cursor: cell;
             width: 400px;
             height: 125px;
@@ -133,12 +138,12 @@ p {
 
 img {
     float: left;
-    width: 250px;
-    height: 250px;
+    width: 322px;
+    /* height: 250px; */
     cursor: crosshair;
-    border: 5px solid #FFEEB2;
+    /* border: 5px solid #FFEEB2; */
     transition: 2s;
-    margin: 20px 10px;
+    margin: 20px 44px;
     top: 50px;
     transition: all 0.5s; 
 }
@@ -149,6 +154,11 @@ img:hover{
 a:hover {
    text-decoration: none ;
    background-color: #FFF49A;
+}
+
+#itsMe{
+    height: 300 px;
+    width: 260 px;
 }
 
 form{
