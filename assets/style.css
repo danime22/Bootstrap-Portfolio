@@ -1,40 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 body {
  
     background-image: url("../assets/images/photo-1536411243582-2481fd5bc69b.jpeg");
-    background-position: center;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
-
-   header {
-            /* border: 2px solid #cccccc; */
-     
-       
-            height: 130px;
-          
-            margin-right: 0 auto;
-            /* border-color: #cccccc; */
-            cursor: pointer;
-            /* background-color: #090625; */
-            background-image: linear-gradient(to bottom right, #463F78, #090625);
-            position: relative;
-            
-           
-        }  
-
- #wrap {
-            margin:0 auto;
-            width: 960px;
-        }
-
-.dog {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #0E66D8;
-    font-weight: bold;
-    font-size: 39px;
-}  /*About Me*/
 
 section{
     color: white;
@@ -44,184 +18,76 @@ section{
     margin-top: 50px;
     padding: 10px;
     width: 960px; 
-    /* height: 900px;;  */
-    background: rgba(0, 0, 0, 0.7);
 
-    
 }
 
-  ul {
-  
-            padding:30px;
-            width: 400px;
-            /* background-color: white; */
-            float: right;
-            position: relative;
-            bottom: 115px;
-            float:right;
-             text-align: center;
-        font-size: x-large;
-        font-weight: bold;
-        font-family: 'Georgia', Times, serif;
-        margin: 0 auto;
-        text-align-last: right;
-        
-        }
 
-li {
-    display:inline-block;
-    list-style: none;
-    color: #777777;
-    transition: all;   
+nav {
+   font-size: 25px;
+   font-family: 'Abril Fatface', cursive;
+   color: blue;
 }
+
+#logo {
+    color: #E21B42;
+
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+}
+
 
 h1 {
-            border: 2px;
-            padding: 41px;
-            /* background-color:#4aaaa5; */
-            font-weight: bold;
-            margin-top:0px;
-            margin: auto;
-            display: inline-block;
-            color: #0E66D8;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 40px;
-            cursor: cell;
-            width: 400px;
-            height: 125px;
-            text-align: center;
-            position: relative;
-
+    border: 2px;
+    padding: 41px;
+    font-weight: bold;
+    margin-top:0px;
+    margin: auto;
+    display: inline-block;
+    color: #0E66D8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    cursor: cell;
+    width: 400px;
+    height: 125px;
+    text-align: center;
+    position: relative;
 
 } 
-#name{
-    padding:25px;
-    height: 107px;
-}
 
-#car {
-    margin: auto;
-     border: 5px solid #dddddd;
-         width: 960px; 
-            color: #777777;
-   
-    margin: auto;
-    margin-top: 50px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-  
-    background-color: #ffffff;
-}
 
 p {
     line-height: 30px ;
+    text-align: center;
  
 }
 
-.papa{
 
-      background-color: #5FAE57;
-            position: relative;
-            float: left;
-            margin-top: 48%;
-            margin-left: -91%;
-            width: 81%;
-            color: white;
-            font-family: 'Roboto Slab', serif;
-            font-size: 23px;
-            text-align: center;
-            height: 44px;
-}
-
-
-
-img {
+img{
     float: left;
     width: 322px;
-    /* height: 250px; */
     cursor: crosshair;
-    /* border: 5px solid #FFEEB2; */
-    transition: 2s;
-    margin: 20px 44px;
     top: 50px;
-    transition: all 0.5s; 
-}
-img:hover{
-    transform: scale(1.5)
+    border-radius: 200px;
+
 }
 
-a:hover {
-   text-decoration: none ;
-   background-color: #FFF49A;
-}
-
-#itsMe{
-    height: 300 px;
-    width: 260 px;
+img.content4 {
+    height: 300px;
+    width: 350px;
+    margin-left: 42px;
+    padding: 12px;
+    border-radius: 100px;
 }
 
 form{
      width: 960px; 
 }
 
-.abc {
-    text-align: center;
-    color: white;
-   
-}
-.cat {
-    background-color:#4aaaa5;
-    color: white;
-    padding: 15px;
-    width: 115px;
-    font-weight: bold;
-    font-size: 20px;
-}
 
-.bird {
-    background-color:#4aaaa5;
-    color: white;
-}
-
-input {
-  padding: 8px;
-  width: 500px;
-  border: 1px solid black;
-}
 textarea {
   border: 1px solid black;
 }
 
-.what {
-  border:10px solid red;
-  float:left;
-  position: absolute;
-  text-align: center;
-}
-
-
-.content1, .content2, .content3, .content4, .content5, .content6{
-
-    float: left;
-    width: 300px;
-    height: 200px;
-    cursor: crosshair;
-    border: 5px solid #FFEEB2;
-    transition: 1s;
-    margin: 15px 30px;
-    top: 5px;
-    transition: all 1s;
-    position: relative;
-   
-}
-
-
-#abc {
-   background-color: green;
-   width: 20px;
-   height: 50px;
-}
 
 footer{
     background-color:#666666;
@@ -235,24 +101,6 @@ footer{
 
 }
 
-.centered {
-    top:70%;
-    width: 32.5%;
-    height: 50px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: fantasy;
-    text-align: center;
-     padding: 10px;
-    font-size: 15px;
-    float:left;
-    position: absolute;
-    margin-top: 165px;
-    margin-left: 20px;
-
-}
-
 
 .row::after {
     content: "";
@@ -261,30 +109,22 @@ footer{
 
 }
 
-.centered1 {
-    top:70%;
-    width: 32.5%;
-    height: 50px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: fantasy;
-    text-align: center;
-    padding: 10px;
-    font-size: 15px;
-    float:left;
-    position: absolute;
-    margin-top: 165px;
-    margin-left: 500px;
-
-
-}
-
 .btn {
     background: #4aaaa5;
     width: 150px;
 }
 
+.portfolio-paragraph{
+position: relative;
+top: 15px;
+font-weight: bold;
+font-size: 26px;
+
+}
+
+.col {
+    margin-top: 60px;
+}
 
 
 @media screen and (max-width:980px), (max-width:768px) and (max-width:640px) {
@@ -293,23 +133,14 @@ footer{
                 
  }
 
- #wrap {
-    width:100%;
- }
-
-ul {
- width:100%;
- position: relative;
-bottom:20px;
- }
          
-  section {
-   width: 100%;
-   height: 100%;
-    margin-top: 16%;
+section {
+ width: 100%;
+ height: 100%;
+
    }
    textarea, input {
-       width: 100%;
+    width: 100%;
    }
 
 }

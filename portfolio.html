@@ -6,161 +6,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
 
 
-    <body>
-    
-        <header>
-            <div id="wrap">
-                <div>
-                    <h1>Yan Davidson</h1>
-    
-                    <nav>
-    
-                        <ul>
-                            <li>
-                                <a href="index.html">About</a>
-                            </li> |
-                            <li>
-                                <a href="portfolio.html">Portfolio</a>
-                            </li> |
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-    
-    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a id="logo" class="navbar-brand" href="home.html"> My Portfolio</a>
+        <hr>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Me</a>
+                </li>
+
+                <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
     <section id="sect">
         <div class="container">
-            <h2 class="dog">Portfolio</h2>
-            <hr>
+
             <div class="row">
-    
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+
+                <div class="col">
                     <div class="im1">
-                        <img class="content1" src="assets/images/hangman.png" alt="Anime_Hangman">
-                     
-                        <p class="papa"><a href="https://danime22.github.io/Word-Guess-Game/index.html">Word Guess Game</a></p>
-                      
+                        <p class="portfolio-paragraph"><a href="https://danime22.github.io/Word-Guess-Game/index.html">Word Guess Game</a></p>
+                        <img class="content4" src="assets/images/hangman.png" alt="Anime_Hangman">
+
+
+
                     </div>
                 </div>
-    
-    
-    
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+
+
+
+                <div class="col">
                     <div class="im1">
-                        <img class="content2" src="assets/images/Giphy-Marvel.png" alt="Marvel">
-                       
-                            <p class="papa"><a href="https://danime22.github.io/Giphy-Marvel/index.html">Giphy Marvel</a></p>
-                       
+                        <p class="portfolio-paragraph"><a href="https://danime22.github.io/Giphy-Marvel/index.html">Giphy Marvel</a></p>
+                        <img class="content4" src="assets/images/Giphy-Marvel.png" alt="Marvel">
+
                     </div>
                 </div>
-    
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+
+                <div class="col">
                     <div class="im1">
-                        <img class="content3" src="assets/images/Matrix-Game.png" alt="The_Matrix">
-                      
-                        <p class="papa"><a href="https://danime22.github.io/Matrix-game/index.html">Matrix Game</a></p>
-                      
+                        <p class="portfolio-paragraph"><a href="https://danime22.github.io/Matrix-game/index.html">Matrix Game</a></p>
+                        <img class="content4" src="assets/images/Matrix-Game.png" alt="The_Matrix">
+
+
+
                     </div>
                 </div>
-    
-    
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+
+
+                <div class="col">
                     <div class="im1">
+                        <p class="portfolio-paragraph"><a href="https://danime22.github.io/Trivia-Game/index.html">Trivia Game</a></p>
                         <img class="content4" src="assets/images/Trivia Game.png" alt="Stranger_Things">
-                       
-                    <p class="papa"><a href="https://danime22.github.io/Trivia-Game/index.html">Trivia Game</a></p>
-                       
                     </div>
                 </div>
-    
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+
+                <div class="col">
                     <div class="im1">
+                        <p class="portfolio-paragraph"><a href="https://danime22.github.io/Train_Schedule/index.html">Train Schedule</a></p>
                         <img class="content4" src="assets/images/Train Schedule.png" alt="Train">
-                      
-                        <p class="papa"><a href="https://danime22.github.io/Train_Schedule/index.html">Train Schedule</a></p>
-                   
+
+
+
                     </div>
                 </div>
-    
-    
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+
+
+                <div class="col">
                     <div class="im1">
+                        <p class="portfolio-paragraph"><a href="https://sapulsic.github.io/SafeSpace/#">Project1</a></p>
                         <img class="content4" src="assets/images/safespace.png" alt="Dallas Police Records">
-                  
-                       <p class="papa"><a href="https://sapulsic.github.io/SafeSpace/#">Project1</a></p>
-                  
                     </div>
                 </div>
 
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="col">
                     <div class="im1">
+                        <p class="portfolio-paragraph"><a href="https://github.com/danime22/liri-node-app.git">Liri-Node-App</a></p>
                         <img class="content4" src="assets/images/liri.png" alt="liri-node-app">
-                  
-                       <p class="papa"><a href="https://github.com/danime22/liri-node-app.git">Liri-Node-App</a></p>
-                  
                     </div>
                 </div>
 
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="col">
                     <div class="im1">
+                        <p class="portfolio-paragraph"><a href="https://github.com/danime22/word_guess_node_app.git">Constructor Word
+                                Guess</a></p>
                         <img class="content4" src="assets/images/constructor.png" alt="Constructor Word Guess">
-                  
-                       <p class="papa"><a href="https://github.com/danime22/word_guess_node_app.git">Constructor Word Guess</a></p>
-                  
                     </div>
                 </div>
 
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="col">
                     <div class="im1">
+                        <p class="portfolio-paragraph"><a href="https://github.com/danime22/mysql_amazon.git">Bamazon </a></p>
                         <img class="content4" src="assets/images/bamazon.png" alt="bamazon MySQL">
-                  
-                       <p class="papa"><a href="https://github.com/danime22/mysql_amazon.git">Constructor Word Guess</a></p>
-                  
+
+
+
                     </div>
                 </div>
 
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+
+
+                <div class="col">
                     <div class="im1">
+                        <p class="portfolio-paragraph"><a href="https://github.com/danime22/FriendFinder.git">Friend Finder</a></p>
                         <img class="content4" src="assets/images/friendfinder.png" alt="Friend Finder">
-                  
-                       <p class="papa"><a href="https://github.com/danime22/FriendFinder.git">Friend Finder</a></p>
-                  
                     </div>
                 </div>
 
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="col">
                     <div class="im1">
-                        <img class="content4" src="assets/images/vs.png" alt="Friend Finder">
-                  
-                       <p class="papa"><a href="https://github.com/danime22/Burger.git">Meet-the-Angels</a></p>
-                  
+                        <p class="portfolio-paragraph"><a href="https://github.com/danime22/Burger.git">Meet-the-Angels</a></p>
+                        <img class="content4" src="assets/images/vs.png" alt="Victoria Secret">
                     </div>
                 </div>
-    
-    
+
+                <div class="col">
+                    <div class="im1">
+                        <p class="portfolio-paragraph"><a href="https://github.com/MarycBrown02/mayn.git">Mayn Dish</a></p>
+                        <img class="content4" src="assets/images/project2.png" alt="Friend Finder">
+                    </div>
+                </div>
+
+
             </div>
-    
+
         </div>
-    
+
     </section>
 
-    
-        <footer>
-            Copyright@
-        </footer>
+
+    <footer>
+        <p>&copy; 2018 | All rights reserved</p>
+    </footer>
 </body>
 
 </html>

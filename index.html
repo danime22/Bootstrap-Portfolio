@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
@@ -20,68 +23,73 @@
 
 <body>
 
-    <header>
-        <div id="wrap">
-            <div>
-                <h1>Yan Davidson</h1>
-    
-                <nav>
-    
-                    <ul>
-                        <li>
-                            <a href="index.html">About</a>
-                        </li> |
-                        <li>
-                            <a href="portfolio.html">Portfolio</a>
-                        </li> |
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a id="logo" class="navbar-brand" href="home.html">My Portfolio</a>
+        <hr>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Me</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+            </ul>
         </div>
-    </header>
+    </nav>
 
 
     <section id="sect">
         <div class="container">
-            <h2 class="dog">About Me</h2>
-            <hr>
-            <div class="row">
-    
-                <div>
-                
-                    <img id="itsMe" src="assets/images/IMG_2005-me-1.jpeg">
-                
-                    <p class="paragrap">A perpetual adolescent with agoraphobic tendencies.
-                        Intrigued by coding and web development she taught herself a bit about it before seeking a formal education and career
-                        in development. Now a Web development addict with a child like joy in making cool code work. Lover of anime, boardgames and dogs. I'm most often found hanging out at my house, but with the right incentive I can be lured to a museum, restaurant,
-                        movie, or anime collectable store. Made in the Philippines imported to the U.S.
-                        
-                    </p>
-                    
-                    <div>
-                        <a href="https://www.linkedin.com/in/yan-davidson-87ab18166/" target="_blank">
-                            <i class="fab fa-linkedin"></i> LinkedIn
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://github.com/danime22" target="_blank">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                    </div>
-           
-                </div>
-    
-            </div>
-    
-        </div>
-    
-    </section>
 
+            <div class="row">
+            
+
+                <div>
+
+                    <img id="itsMe" src="assets/images/IMG_2005-me-1.jpeg">
+
+                    <p class="paragrap">A perpetual adolescent with agoraphobic tendencies.
+                        Intrigued by coding and web development she taught herself a bit about it before seeking a
+                        formal education and career
+                        in development. Now a Web development addict with a child like joy in making cool code work.
+                        Lover of anime, boardgames and dogs. I'm most often found hanging out at my house, but with the
+                        right incentive I can be lured to a museum, restaurant,
+                        movie, or anime collectable store. Made in the Philippines imported to the U.S.
+
+                    </p>
+
+          
+                        <p><a href="https://www.linkedin.com/in/yan-davidson-87ab18166/" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn</p>
+                        </a>
+                
+        
+                        <p><a href="https://github.com/danime22" target="_blank">
+                            <i class="fab fa-github"></i> GitHub</p>
+                        </a>
+                  
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
     <footer>
-        Copyright@
+        <p>&copy; 2018 | All rights reserved</p>
     </footer>
 
 </body>
