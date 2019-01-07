@@ -79,6 +79,12 @@ img.content4 {
     border-radius: 100px;
 }
 
+.linkedin {
+    color: red;
+    font-weight: bold;
+    font-size: 27px;
+}
+
 form{
      width: 960px; 
 }
