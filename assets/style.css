@@ -25,12 +25,11 @@ section{
 nav {
    font-size: 25px;
    font-family: 'Abril Fatface', cursive;
-   color: blue;
+
 }
 
 #logo {
     color: #E21B42;
-
     font-size: 35px;
     font-family: 'Abril Fatface', cursive;
 }
@@ -58,6 +57,7 @@ h1 {
 p {
     line-height: 30px ;
     text-align: center;
+    color: yellow;
  
 }
 
@@ -149,4 +149,13 @@ section {
     width: 100%;
    }
 
+}
+
+
+a {
+    color: #739FF7;
+}
+
+.nav-link {
+    color: white;
 }
