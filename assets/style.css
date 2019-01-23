@@ -1,25 +1,61 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 body {
  
-    background-image: url("../assets/images/photo-1536411243582-2481fd5bc69b.jpeg");
+    background-image: url("../assets/images/photo-1484665739383-a1069a82d4be.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
 
-section{
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    margin: auto;
-    margin-top: 88px;
-    padding: 10px;
-    width: 960px; 
-
+.project-container {
+    background: rgba(200, 54, 54, 0); 
+    padding: 0.5em; 
+    margin: 25vh auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-around;
 }
+
+.paragraph {
+    /* height: 70px; */
+    margin: 5px;
+}
+
+.project-div {
+    margin: 1.5em;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+    border-radius: 80px;
+    font-size: 18px;
+    color: white;
+
+ 
+}
+
+.project-div:hover {
+    animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 
 
 nav {
@@ -32,6 +68,8 @@ nav {
     color: #E21B42;
     font-size: 35px;
     font-family: 'Abril Fatface', cursive;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -43,7 +81,7 @@ h1 {
     margin: auto;
     display: inline-block;
     color: #0E66D8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Merriweather', serif;
     font-size: 40px;
     cursor: cell;
     width: 400px;
@@ -53,47 +91,34 @@ h1 {
 
 } 
 
-
-p {
-    line-height: 30px ;
-    text-align: center;
-    color: yellow;
- 
+img.index-image {
+    height: 400px;
+    width: 390px;
+    border-radius: 500px;
+   
 }
 
-
-img{
-    float: left;
-    width: 322px;
-    cursor: crosshair;
-    top: 50px;
-    border-radius: 200px;
-
+img.index-image:hover {
+    transform: rotateY(180deg);
 }
 
 img.content4 {
-    height: 300px;
+   height: 200px; 
+   width: 300px;
+   border-radius: 50px; 
+   margin-top: 5px;
+}
+
+
+.card-body {
     width: 350px;
-    margin-left: 42px;
-    padding: 12px;
-    border-radius: 100px;
 }
 
-.linkedin {
-    color: red;
-    font-weight: bold;
-    font-size: 27px;
-}
-
-form{
-     width: 960px; 
-}
 
 
 textarea {
   border: 1px solid black;
-}
-
+} 
 
 footer{
     background-color:#666666;
@@ -107,55 +132,65 @@ footer{
 
 }
 
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-
-}
-
-.btn {
-    background: #4aaaa5;
-    width: 150px;
-}
-
-.portfolio-paragraph{
-position: relative;
-top: 15px;
-font-weight: bold;
-font-size: 26px;
-
-}
-
-.col {
-    margin-top: 60px;
-}
-
-
-@media screen and (max-width:980px), (max-width:768px) and (max-width:640px) {
- h1 {
- width:100%;
-                
- }
-
-         
-section {
- width: 100%;
- height: 100%;
-
-   }
-   textarea, input {
-    width: 100%;
-   }
-
-}
-
-
 a {
-    color: #739FF7;
+    text-decoration: underline;
 }
 
 .nav-link {
     color: white;
+}
+
+.source {
+    font-weight: bold;
+    font-size: 25px;
+    color: #FF0018;
+    text-decoration: underline overline;
+} 
+
+.index-container {
+    background: rgba(200, 54, 54, 0);
+    padding: 0.5em; 
+    margin: 25vh auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.about-yan {
+    color: #CCD3CC;
+    font-family: 'Crete Round', serif;
+    font-size: 26px;
+    margin: 3.5em;
+    text-align: center;
+}
+
+.about-yan:hover {
+    color: white;
+}
+
+.container {
+    margin: 25vh auto 0;
+}
+
+form {
+    margin: 0 auto;
+  
+}
+
+
+label {
+    color: #CCD3CC;
+    font-family: 'Crete Round', serif;
+    font-size: 26px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0);
+}
+
+
+.name {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 50px;
 }
