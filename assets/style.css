@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 body {
  
@@ -37,7 +35,6 @@ body {
 }
 
 .paragraph {
-    /* height: 70px; */
     margin: 5px;
 }
 
@@ -47,15 +44,20 @@ body {
     box-shadow: 5px 10px 5px 10px #888888;
     border-radius: 80px;
     font-size: 18px;
-    color: white;
-
- 
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px lightseagreen, 0 0 5px darkblue;
+    transition: all .4s ease-in-out;
 }
 
 .project-div:hover {
-    animation: shake 0.5s;
-  animation-iteration-count: infinite;
+    transform: scale(1.1);
 }
+
+.portfolio-paragraph:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -75,34 +77,23 @@ body {
 
 nav {
    font-size: 25px;
-   font-family: 'Abril Fatface', cursive;
+   /* font-family: 'Abril Fatface', cursive; */
 
 }
 
 #logo {
-    color: #A1ED70;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkblue;
+    color: lightseagreen;
     font-size: 46px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
-
-h1 {
-    border: 2px;
-    padding: 41px;
+.nav-item {
+    font-family:'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-top:0px;
-    margin: auto;
-    display: inline-block;
-    color: #0E66D8;
-    font-family: 'Merriweather', serif;
-    font-size: 40px;
-    cursor: cell;
-    width: 400px;
-    height: 125px;
-    text-align: center;
-    position: relative;
+}
 
-} 
 
 img.index-image {
     height: 400px;
@@ -161,6 +152,7 @@ a {
     text-decoration: underline;
 } 
 
+
 .index-container {
     background: rgba(200, 54, 54, 0);
     padding: 0.5em; 
@@ -172,7 +164,7 @@ a {
 }
 
 .about-yan {
-    color: #CCD3CC;
+    color: white;
     font-family: 'Crete Round', serif;
     font-size: 26px;
     margin: 0.5em;
@@ -203,8 +195,20 @@ label {
     background: rgba(0, 0, 0, 0);
 }
 
-
 .name {
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    font-size: 50px;
+
+    text-shadow: 1px 1px 2px black, 0 0 25px lightseagreen, 0 0 5px darkblue;
+    font-size: 50px;font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-top:0px;
+    margin: auto;
+    cursor: cell;
+    text-align: center;
+    position: relative;
+}
+
+.linkedin {
+    color: lightseagreen;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkblue;
 }
